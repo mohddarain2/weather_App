@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(13, 182, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    
+}
+#search{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 3px 5px black;
+    
+    
+}
